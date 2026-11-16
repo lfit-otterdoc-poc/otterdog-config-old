@@ -49,7 +49,7 @@ jobs:
 
       - name: 'Run LF pre-commit checks'
         # yamllint disable-line rule:line-length
-        uses: lfreleng-actions/standalone-linting-action@8485e9964141710c75d168ac03ea2d4c98e579c1  # v0.6.0
+        uses: lfreleng-actions/standalone-linting-action@0a60cf5241a83be396fdd56bb63e9be11dd90b06  # v0.10.2
         with:
           no_checkout: 'true'
           github_token: ${{ github.token }}
